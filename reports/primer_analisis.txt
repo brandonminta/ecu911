@@ -1,0 +1,41 @@
+Contamos con una estructura de (4789409, 8) datos, con un Rango de fechas: 01/07/2021 → 31/08/2025.
+Los datos cuentas con las 24 provincias del Ecuador.
+Los servicios mas frecuentes a lo largo de estos dos años son:
+-Seguridad Ciudadana (2643163)
+-Gestión Sanitaria
+-Transito y Movilidad
+Seguidos menormente por Servicios Municipales, Gestion de Siniestros, Servicio Militar y Gestion de Riesgos respectivamente. (estas 7 cosntituyen todo el universo de Servicios catalogados)
+
+
+Podemos observar que el partullaje solicitado en el sector es el primordial seguido por reporte de libadores, asi como solicitud de presencia policial con un numero mas reduci a escanadlo en espacio publico o resguardo de personas que trasladan valores.
+Por su parte, la gestion sanitaria tiene un  gran porcentaje el transporte secundario, es decir el traslado de pacientes, segumios con reporte de mal estado genera, los suguientes subtipos van decreciendo de forma paulatina.
+
+Por ultimo en transito y movilidad el subtipo predominante son los procedimientos de transito, luego denuncuas, servicios, vehiculos mal estacionados y algunos accidentes de transitos etc
+
+
+De todo el dato historico tenemos que las provincias de Pichincha y Guayas predominan como las provicias con mas incidentes registrados, seguido por manabi los rios  azuay entre otros decreciendo en icidencias paulativamente.
+
+
+A traves de los periodos de tiempo vemos la consistencia entre Pichincha y Guayas en registrar las mayores incidencias, ademas vemos mayor parte de la region costa registrando incidencias a lo largo del tiempo, no aparecen regiuones amazonicas dentro del top. Esto se debe a la denisdad poblacional de las provincias, con aquellas mas poblaadas con mas propbabilidad de incidencias. 
+
+Fuente del censo:https://www.censoecuador.gob.ec/wp-content/uploads/2024/05/Presentacion_Nacional_2da_entrega.pdf
+
+Ralizando la agrupacion por periodo de tiempo y considerando el tamaño pobalcional calculamos el numero de incidencias por cada 100k habitantes, perculiarmente, en este caso la costa no se encuentra en el top 10 de incidencias, si no que mayormente la sierra y ahora si aparecen regiones amazonicas. Pichincha sigue manteniendo un alto indice de incidentes. Sin embargo esto no suguiere necesariamente un mayor indice de inseguirdad ya que podria albercar temas santiarios o de transito y mobilidad. 
+
+Al momento de plotear el proimedio de registros por dia y su desviacion estandar observamos que al aumentar la pobalcion, aumenta el promedio de registros y su variabilidad.
+
+Fuente Feriados:https://www.turismo.gob.ec/wp-content/uploads/2023/12/CALENDARIO-FERIADOS-2023-2025-06-12-2022-.pdf
+
+Haciendo el analisis del promedio de incidencias por dia, observamos que de lunes a juves son etablces mientra que viernes sbado y domingo tienen un crecimiento. Podemos concluir que el fin de semana se disparan las incidencias por la movilidad y actividad de la poblacion esos dias.
+
+
+Luego del analisis de servicos mas recurrentes por dia, podemos observar que el predominante es seguridad ciudadna, seguido por gestion sanitaria y transito respectivamente, es peculiar que viernes y sabado transito supera a gestion sdanitaria, aun que no por mucho. Analizando el heat map que ioncluyen todos los servicos es peculiar observar que todos los sevicion tienen a bajar un poco en incidencias de sabado a domingo, a excepcion de gestion sanitaria y seguiridad ciudadana.
+
+
+
+Luego de graficar la variacion temporal por año de los incidentes señalando los feriados con una franja de +-2 dias observamos una periodicidad clara de 7 días, con picos regulares todos los fines de semana (viernes–domingo). Esa frecuencia es mucho más fuerte y estable que los feriados esporádicos. Esto significa que el "efecto fin de semana" (weekend effect) es el principal determinante del volumen de emergencias, no tanto los feriados puntuales. Solo feriados largos o culturalmente fuertes (Navidad, Fin de Año, Carnaval, Semana Santa) generan un impacto visible:
+
+
+
+
+

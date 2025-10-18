@@ -1,0 +1,33 @@
+Variable	Rol	Justificación
+anio, mes	temporal	permiten capturar tendencias anuales / estacionales
+dia_semana	cíclica semanal	refleja patrón claro de fin de semana
+es_fin_semana	binaria agregada	marca el “weekend effect” sin depender de lag
+poblacion_2022	demográfica	captura magnitud esperada de incidencias
+es_feriado	binaria puntual (solo días fuertes)	evita ruido post-feriado
+sin_mes, cos_mes	estacionalidad continua	añade suavidad anual, útil para árboles o redes
+
+conclusiones del heat map de correlaciones:Categoría	
+Variables	Acción recomendada
+Muy correlacionadas (redundantes)	dia_semana y es_fin_semana	puedes mantener ambas si usas árboles, o dejar solo dia_semana si usas modelo lineal
+Fuertes predictoras	poblacion_2022	mantener siempre
+Variables con efecto débil	es_feriado, sin_mes, cos_mes	mantener — aportan contexto temporal y no generan ruido
+Variables estables	anio, mes	mantener — podrían ayudar al modelo a captar incrementos o cambios globales
+
+obervacion en el bajo p[orcentaje de dias de la semana y numero de eventos:La correlación de Pearson (la que usa el heatmap) no siempre detecta bien relaciones categóricas o no lineales. Pearson mide relación lineal entre dos variables numéricas continuas.
+es_fin_semana es binaria (0 o 1), y cantidad_eventos varía entre miles → la correlación numérica “promedio” se diluye. Los fines de semana sí aumentan los valores promedio,
+pero no en proporción lineal uniforme (es un salto puntual 0 → 1).
+
+Además, la magnitud diaria varía mucho entre provincias grandes y pequeñas,
+y la variable poblacion_2022 domina la varianza total.
+→ Eso hace que el efecto “fin de semana” quede pequeño en la correlación global.
+
+Las provincias con menor volumen poblacional y menor frecuencia de incidentes
+muestran los errores porcentuales más altos, aunque en términos absolutos (MAE)
+sus errores son pequeños.
+
+
+“Los errores relativos (MAPE) muestran una clara relación inversa con el tamaño poblacional.
+Provincias de baja densidad (Amazonía y Galápagos) presentan mayor variabilidad diaria,
+lo que dificulta la predicción de eventos esporádicos.
+En contraste, provincias densamente pobladas como Guayas y Pichincha mantienen
+errores porcentuales muy bajos, indicando que el modelo capta bien los patrones estructurales del fenómeno.”
