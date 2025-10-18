@@ -1,0 +1,50 @@
+fecha_original,fecha_feriado,descripcion,es_trasladado,anio
+2021-08-10,2021-08-09,Primer Grito de Independencia,True,2021
+2021-10-09,2021-10-09,Independencia de Guayaquil,False,2021
+2021-11-02,2021-11-02,Día de los Difuntos,False,2021
+2021-11-03,2021-11-03,Independencia de Cuenca,False,2021
+2021-12-25,2021-12-25,Navidad,False,2021
+2022-01-01,2022-01-01,Año Nuevo,False,2022
+2022-02-28,2022-02-28,Carnaval,False,2022
+2022-03-01,2022-03-01,Carnaval,False,2022
+2022-04-15,2022-04-15,Viernes Santo,False,2022
+2022-05-01,2022-05-02,Día del Trabajo (traslado),True,2022
+2022-05-24,2022-05-24,Batalla del Pichincha,False,2022
+2022-08-10,2022-08-12,Primer Grito de Independencia (traslado),True,2022
+2022-10-09,2022-10-10,Independencia de Guayaquil (traslado),True,2022
+2022-11-02,2022-11-04,Día de los Difuntos (traslado),True,2022
+2022-11-03,2022-11-03,Independencia de Cuenca,False,2022
+2022-12-25,2022-12-25,Navidad,False,2022
+2023-01-01,2023-01-02,Año Nuevo (traslado),True,2023
+2023-02-20,2023-02-20,Carnaval,False,2023
+2023-02-21,2023-02-21,Carnaval,False,2023
+2023-04-07,2023-04-07,Viernes Santo,False,2023
+2023-05-01,2023-05-01,Día del Trabajo,False,2023
+2023-05-24,2023-05-26,Batalla del Pichincha (traslado),True,2023
+2023-08-10,2023-08-11,Primer Grito de Independencia (traslado),True,2023
+2023-10-09,2023-10-09,Independencia de Guayaquil,False,2023
+2023-11-02,2023-11-02,Día de los Difuntos,False,2023
+2023-11-03,2023-11-03,Independencia de Cuenca,False,2023
+2023-12-25,2023-12-25,Navidad,False,2023
+2024-01-01,2024-01-01,Año Nuevo,False,2024
+2024-03-04,2024-03-04,Carnaval,False,2024
+2024-03-05,2024-03-05,Carnaval,False,2024
+2024-03-29,2024-03-29,Viernes Santo,False,2024
+2024-05-01,2024-05-03,Día del Trabajo (traslado),True,2024
+2024-05-24,2024-05-24,Batalla del Pichincha,False,2024
+2024-08-10,2024-08-09,Primer Grito de Independencia (traslado),True,2024
+2024-10-09,2024-10-11,Independencia de Guayaquil (traslado),True,2024
+2024-11-02,2024-11-01,Día de los Difuntos (traslado),True,2024
+2024-11-03,2024-11-04,Independencia de Cuenca (traslado),True,2024
+2024-12-25,2024-12-25,Navidad,False,2024
+2025-01-01,2025-01-01,Año Nuevo,False,2025
+2025-03-03,2025-03-03,Carnaval,False,2025
+2025-03-04,2025-03-04,Carnaval,False,2025
+2025-04-18,2025-04-18,Viernes Santo,False,2025
+2025-05-01,2025-05-02,Día del Trabajo (traslado),True,2025
+2025-05-24,2025-05-23,Batalla del Pichincha (traslado),True,2025
+2025-08-10,2025-08-11,Primer Grito de Independencia (traslado),True,2025
+2025-10-09,2025-10-10,Independencia de Guayaquil (traslado),True,2025
+2025-11-02,2025-11-03,Día de los Difuntos (traslado),True,2025
+2025-11-03,2025-11-04,Independencia de Cuenca (traslado),True,2025
+2025-12-25,2025-12-25,Navidad,False,2025
